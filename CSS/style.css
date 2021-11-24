@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background-image: url(../image/bg.png);
+	font-family: arial;
+
+}
+.container{
+	width: 60%;
+	margin: auto;
+	background-color: white;
+}
+
+.header{
+	padding: 20px;
+	padding-bottom: 10px;
+	position: right;
+}
+
+.header .judul{
+	font-size: 50px;
+}
+
+.header ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: chocolate;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: #ffbd59;
+	color: black;
+}
+
+.hero{
+	height: 300px;
+	background-image: url(../image/hero1.jpg);
+	background-size: cover;
+	background-position: 0-120;
+	border-top: 5px solid chocolate;
+	background-position:center;
+	background-repeat:no-repeat
+
+
+}
+
+.conten{
+padding: 30px;
+}
+
+.conten h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.conten .penulis{
+	font-size: 15px;
+
+}
+
+.conten a{
+	color: chocolate;
+	text-decoration: none;
+}
+
+.conten p{
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-family: arial;
+	text-align: justify;
+}
+
+.footer{
+	background-color: chocolate;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.footer .copy{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+
+.daftarbuku{
+	width: 100%;
+	border-top: solid 5px chocolate;
+}
+.buku{
+	padding: 30px;
+}
+
+.buku img{
+	margin: auto;
+	display: block;
+	max-width:100%;
+   height: auto;
+}
+.buku a{
+	color: chocolate;
+	text-decoration: none;
+}
+.buku h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.buku p{
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+
+
+.kotaktentang{
+	border-top: solid 5px chocolate;
+	width: 100%;
+}
+.detailtentang{
+	padding: 30px;
+}
+.detailtentang h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.detailtentang p{
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+
+
+.kontak{
+	border-top: solid 5px chocolate;
+	width: 100%;
+}
+.kontakon{
+	padding: 30px;
+
+}
+.kontakon h2{
+	
+	font-size: 20px;
+	font-weight: bold;
+}
+.kontak p{
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+.kontakon ul li{
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.medsos{
+	width: 100%;
+	padding-left: 30px;
+	padding-bottom: 10px;
+
+}
+.medsos img{
+	display: block;
+	max-width:100%;
+   height: auto;
+}
+
+.medsos ul li{
+	display: inline-block;
+	padding-right: 5px;
+}
+.medsos ul li:hover{
+	transform: scale(1.30);
+}
+.kotakother{
+	border-top: solid 5px chocolate;
+}
+.isiother{
+	padding: 30px;
+}
+.isiother h2{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.isiother p{
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 20px;
+
+}
